@@ -1,0 +1,58 @@
+.canvas {
+    width: 500px;
+    height: 600px;
+    background-color: #D7E1EC;
+    position: relative;
+  }
+  
+  .frame {
+    border: 40px solid black;
+    width: 500px;
+    padding: 40px;
+    margin: 20px auto;
+  }
+  .one {
+    width: 425px;
+    height: 150px;
+    background-color: #efb762;
+    position: absolute;
+    top:150px;
+    margin-left: 38px;
+    background: linear-gradient(to bottom, #000080, purple);
+    background-blend-mode:normal;
+    filter: blur(0.8px);
+    box-shadow: inset 0px 10px 10px -10px rgba(0,0,0,0.75);
+  }
+.two{
+    width: 425px;
+    height: 140px;
+    background: linear-gradient(to bottom, purple, pink);
+    position:absolute;
+    top:297px;
+    margin-left: 38px;
+    background-blend-mode: normal;
+    filter: blur(0.6px);
+   
+}
+.three{
+    width: 425px;
+    height: 150px;
+    background: linear-gradient(to bottom, pink, orange);
+    position:absolute;
+    top:432px;
+    margin-left: 38px;
+    background-blend-mode: normal;
+    filter: blur(1px);
+}
+.four{
+    width: 425px;
+    height: 80px;
+    background: linear-gradient(to bottom, orange, rgba(243, 243, 102, 0.908));
+    position:absolute;
+    top:580px;
+    margin-left: 38px;
+    background-blend-mode: normal;
+    filter: blur(1px);
+    border-radius: 5%;
+   
+}
